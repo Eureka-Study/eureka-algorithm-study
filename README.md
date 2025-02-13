@@ -57,17 +57,17 @@
 <table>
     <tr>
       <td height="140px" align="center"> <a href="https://github.com/danii0110"><img src="https://avatars.githubusercontent.com/u/105475360?v=4" width="140px" /><br/>🎀 천다인(BackEnd)</a></td>
-      <td height="140px" align="center"> <a href="https://github.com/guntaek"><img src="https://avatars.githubusercontent.com/u/106528756?v=4" width="140px" /><br/>👦🏻 김건택(BackEnd)</a></td>
-      <td height="140px" align="center"> <a href="https://github.com/s🦊heon0411"><img src="https://avatars.githubusercontent.com/u/68041137?v=4" width="140px" /><br/>👦🏻 김시헌(BackEnd)</a></td>
-        <td height="140px" align="center"> <a href="https://github.com/seungwoo505"><img src="https://avatars.githubusercontent.com/u/51819005?v=4" width="140px" /><br/>👦🏻 이승우(FrontEnd)</a></td>
-        <td height="140px" align="center"> <a href="https://github.com/mike7643"><img src="https://avatars.githubusercontent.com/u/121170730?v=4" width="140px" /><br/>👦🏻 정유민(BackEnd)</a></td>
+      <td height="140px" align="center"> <a href="https://github.com/guntaek"><img src="https://avatars.githubusercontent.com/u/106528756?v=4" width="140px" /><br/>👅 김건택(BackEnd)</a></td>
+      <td height="140px" align="center"> <a href="https://github.com/s🦊heon0411"><img src="https://avatars.githubusercontent.com/u/68041137?v=4" width="140px" /><br/>⚽️ 김시헌(BackEnd)</a></td>
+        <td height="140px" align="center"> <a href="https://github.com/seungwoo505"><img src="https://avatars.githubusercontent.com/u/51819005?v=4" width="140px" /><br/>🐰 이승우(FrontEnd)</a></td>
+        <td height="140px" align="center"> <a href="https://github.com/mike7643"><img src="https://avatars.githubusercontent.com/u/121170730?v=4" width="140px" /><br/>📈 정유민(BackEnd)</a></td>
     </tr>
     <tr>
       <td align="center"><a href="https://solved.ac/mo9mo9"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=mo9mo9" /></a></td>
-      <td align="center"><a href="https://solved.ac/{id}"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj={id}" /></a></td>
-      <td align="center"><a href="https://solved.ac/{id}"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj={id}" /></a></td>
-      <td align="center"><a href="https://solved.ac/{id}"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj={id}" /></a></td>
-      <td align="center"><a href="https://solved.ac/{id}"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj={id}" /></a></td>
+      <td align="center"><a href="https://solved.ac/{id}"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=rjsxor7584" /></a></td>
+      <td align="center"><a href="https://solved.ac/{id}"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=siheon0411" /></a></td>
+      <td align="center"><a href="https://solved.ac/{id}"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=zoozoo1302" /></a></td>
+      <td align="center"><a href="https://solved.ac/{id}"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=mike7643" /></a></td>
   </tr>
   
 </table>
@@ -77,7 +77,7 @@
 
 | 기간 | 문제 유형 |
 | --- | --- |
-| 2.10 ~ 2.16 | 스택, BFS, 정렬 |
+| 2.10 ~ 2.16 | 스택, BFS, 정렬, DP, BFS, 정렬 |
 <br><br>
 ## 📌 참고
 - [참고 링크](https://github.com/99MinSu/URECA-Algorithm-Study?tab=readme-ov-file)
