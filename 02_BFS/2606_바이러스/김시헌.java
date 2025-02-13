@@ -1,4 +1,4 @@
-// 언어 : JAVA , (성공/실패) : 1/1 , 메모리 : 11852 KB , 시간 : 72 ms
+// 언어 : JAVA , (성공/실패) : 1/0 , 메모리 : 11852 KB , 시간 : 72 ms
 
 import java.io.*;
 import java.util.*;
