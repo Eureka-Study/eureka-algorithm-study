@@ -1,3 +1,4 @@
+// 언어 : JAVA , (성공/실패) : 1/1 , 메모리 : 317236KB , 시간 : 2936ms
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
