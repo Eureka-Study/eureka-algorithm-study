@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Virus {
+public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int computer = Integer.parseInt(br.readLine());
@@ -35,7 +35,7 @@ public class Virus {
 
         while (!virus.isEmpty()) {
             int v = virus.poll();
-
+            
             for(int i : connect[v]){
                 if (!visited[i]) {
                     visited[i] = true;
