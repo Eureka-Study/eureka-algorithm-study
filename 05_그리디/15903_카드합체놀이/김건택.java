@@ -1,4 +1,4 @@
-// 언어 : JAVA , (성공/실패) : 2/2 , 메모리 : 31352 KB , 시간 : 316 ms
+// 언어 : JAVA , (성공/실패) : 1/1 , 메모리 : 15216 KB , 시간 : 148 ms
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
