@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Silver_7562 {  // 나이트의 이동
+public class Main {  // 나이트의 이동
     static int T, L, x1, y1, x2, y2;
     static int ans;
     static boolean[][] board;

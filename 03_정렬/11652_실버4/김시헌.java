@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Silver_11652 {     // 카드
+public class Main {     // 카드
     static int N;
     static HashMap<Long, Integer> cards;  // 문제조건 보니, 카드 숫자범위가 -2^62 ~ 2^62 임. int 범위 초과하므로 Long으로 해보자. (Long은 64비트)
 

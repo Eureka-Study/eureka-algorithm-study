@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Silver_2606 {
+public class Main {
     static int computer;
     static int couple;
     static ArrayList<ArrayList<Integer>> graph;
