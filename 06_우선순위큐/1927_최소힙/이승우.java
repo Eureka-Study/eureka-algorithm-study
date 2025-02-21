@@ -11,7 +11,7 @@ public class heap{
         int N = Integer.parseInt(br.readLine());
 
         Queue<Integer> queue = new PriorityQueue<>(); 
-        StringBuilder sb = new StringBuilder(); // 큐를 뺀 것을 저장
+        StringBuilder sb = new StringBuilder(); // 큐에서 뺀 것을 저장
 
         for(int i = 0; i < N; i++){
             int x = Integer.parseInt(br.readLine());
