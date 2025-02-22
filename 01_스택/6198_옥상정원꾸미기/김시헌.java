@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Gold_6198_re {    // 옥상 정원 꾸미기
+public class Main {    // 옥상 정원 꾸미기
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());    // 빌딩 개수 인풋
