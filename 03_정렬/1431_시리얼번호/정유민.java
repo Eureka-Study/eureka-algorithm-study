@@ -1,4 +1,4 @@
-// 언어 : JAVA , (성공/실패) : 1/2 , 메모리 : 14272 KB , 시간 : 108ms
+// 언어 : JAVA , (성공/실패) : 1/2 , 메모리 : 14312 KB , 시간 : 108ms
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -26,14 +26,14 @@ public class 정유민 {
             if (x.length() != y.length()) { // 만약 길이가 다르다면 ?
                 return x.length() - y.length(); // 짧은 것이 먼저 온다.
             }else{ //만약 길이가 같다면 ?
-                for (int i = 0; i < x.length(); i++) {
+//                for (int i = 0; i < x.length(); i++) { // 코드 리뷰 중 for 문 이거 왜 했는지 모르겠습니다. 주석 처리 하고 다시 제출해서 통과하였습니다.
                     int xTotal = totalMachine(x); //합치기기계를 따로 만들었다.
                     int yTotal = totalMachine(y);
 
                     if (xTotal != yTotal) { //자리수의 합이 다르다면 ?
                         return Integer.compare(xTotal, yTotal); //자리수의 합 크기 비교. -1 또는 1이 넘어가겠지.
                     }
-                }
+//                }
             }
             return x.compareTo(y); // 최종적으로 비교가 불가능할 때, 사전순 비교
         });
