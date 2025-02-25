@@ -1,4 +1,4 @@
-// 언어 : JAVA , (성공/실패) : 1/0 , 메모리 : 212956 KB , 시간 : 1636 ms
+// 언어 : JAVA , (성공/실패) : 1/0 , 메모리 : 212400 KB , 시간 : 1624 ms
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -31,8 +31,6 @@ public class 정유민 {
                 res.add(num);
             }
         }
-        //오름차순 정렬 출력
-        Collections.sort(res);
 
         StringBuilder sb = new StringBuilder();
         if (res.isEmpty()) {
