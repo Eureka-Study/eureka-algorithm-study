@@ -12,11 +12,11 @@ public class 이승우{
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 
         int N = Integer.parseInt(st.nextToken()), M = Integer.parseInt(st.nextToken());
-        ArrayList<Integer>[] list = new ArrayList[N + 1];
-        boolean[] visited = new boolean[N + 1];
+        ArrayList<Integer>[] list = new ArrayList[N + 1]; // 연결된 요소를 리스트 형식으로 넣음
+        boolean[] visited = new boolean[N + 1]; //연결 여부
 
 
-        for(int i = 1; i <= N; i++){
+        for(int i = 1; i <= N; i++){ // 초기화
             list[i] = new ArrayList<>();
         }
 
@@ -25,6 +25,7 @@ public class 이승우{
 
             int u = Integer.parseInt(st.nextToken()), v = Integer.parseInt(st.nextToken());
 
+            // 그래프 쌍으로 연결
             list[u].add(v);
             list[v].add(u);
         }
@@ -33,15 +34,15 @@ public class 이승우{
         Deque<Integer> deque = new ArrayDeque<>();
 
         for(int i = 1; i <= N; i++){
-            if(visited[i]){
+            if(visited[i]){ // 이미 확인한 것이므로 넘기기
                 continue;
             }
             visited[i] = true;
             deque.offer(i);
 
-            count++;
+            count++; //확인이 안된 것이므로 새로운 연결이라고 판단
 
-            while (!deque.isEmpty()) {
+            while (!deque.isEmpty()) { // 한 연결에 어디까지 연결되는지 파악하기
                 int connect = deque.pollFirst();
 
                 for(int j : list[connect]){
