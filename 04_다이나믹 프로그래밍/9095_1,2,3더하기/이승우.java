@@ -14,21 +14,22 @@ public class 이승우 {
         StringBuilder sb = new StringBuilder();
 
         for(int t = 1; t <= T; t++){
-            int count = 0;
+            int count = 0; // 경우의 수
             int n = Integer.parseInt(br.readLine());
 
-            Queue<Integer> q = new LinkedList<>();
+            Queue<Integer> q = new LinkedList<>(); // 과정을 담을 큐
 
-            q.offer(0);
+            q.offer(0); // 0부터 시작
 
             while(!q.isEmpty()){
                 int num = q.poll();
 
-                if(num == n){
+                if(num == n){ // n이 되면 하나의 경우니까 증가
                     count++;
                     continue;
                 }
 
+                // 1, 2, 3을 더하는데 n을 넘지않는 범위만 계산하여 넣기
                 if(num + 1 <= n){
                     q.offer(num + 1);
                 }
@@ -40,6 +41,7 @@ public class 이승우 {
                 }   
             }
 
+            // 하나의 태스트에서의 경우의 수 출력
             sb.append(count)
               .append("\n");
         }
