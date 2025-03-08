@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/10026_적록색약" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1012_유기농배추" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2606_바이러스" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7562_나이트의이동" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
