@@ -33,21 +33,21 @@ public class 이승우{
         while(!queue.isEmpty()){
             int[] nowPoint = queue.poll();
 
-            if(nowPoint[0] == (M - 1) && nowPoint[1] == (N - 1)){
+            if(nowPoint[0] == (M - 1) && nowPoint[1] == (N - 1)){ // 현재 위치가 최종 위치면 끝내기
                 System.out.println(walk[nowPoint[1]][nowPoint[0]]);
                 return;
             }
 
-            int newCount = walk[nowPoint[1]][nowPoint[0]] + 1;;
+            int newCount = walk[nowPoint[1]][nowPoint[0]] + 1; // 한칸 이동이 된것이므로 현 위치에서 + 1
 
             for(int[] d : dXY ){
-                int[] newPoint = {nowPoint[0] + d[0], nowPoint[1] + d[1]};
+                int[] newPoint = {nowPoint[0] + d[0], nowPoint[1] + d[1]}; // 다음 위치
 
-                if(newPoint[0] >= 0 && newPoint[0] < M
-                && newPoint[1] >= 0 && newPoint[1] < N
-                && maze[newPoint[1]][newPoint[0]] == 1
-                && walk[newPoint[1]][newPoint[0]] == 0){
-                    queue.offer(new int[]{newPoint[0], newPoint[1]});
+                if(newPoint[0] >= 0 && newPoint[0] < M // 위치가 지금 정상 범위 안 인지 확인
+                && newPoint[1] >= 0 && newPoint[1] < N // 위치가 지금 정상 범위 안 인지 확인
+                && maze[newPoint[1]][newPoint[0]] == 1 // 미로에서 갈 수 있는 경로 인지 확인
+                && walk[newPoint[1]][newPoint[0]] == 0){ // 이미 지나간 경료인지 확인
+                    queue.offer(new int[]{newPoint[0], newPoint[1]}); // 정상적이라면 수행
                     walk[newPoint[1]][newPoint[0]] = newCount;
                 }
             }
