@@ -58,16 +58,16 @@
     <tr>
       <td height="140px" align="center"> <a href="https://github.com/danii0110"><img src="https://avatars.githubusercontent.com/u/105475360?v=4" width="140px" /><br/>🎀 천다인(BackEnd)</a></td>
       <td height="140px" align="center"> <a href="https://github.com/guntaek"><img src="https://avatars.githubusercontent.com/u/106528756?v=4" width="140px" /><br/>👅 김건택(BackEnd)</a></td>
-      <td height="140px" align="center"> <a href="https://github.com/s🦊heon0411"><img src="https://avatars.githubusercontent.com/u/68041137?v=4" width="140px" /><br/>⚽️ 김시헌(BackEnd)</a></td>
+      <td height="140px" align="center"> <a href="https://github.com/siheon0411"><img src="https://avatars.githubusercontent.com/u/68041137?v=4" width="140px" /><br/>⚽️ 김시헌(BackEnd)</a></td>
         <td height="140px" align="center"> <a href="https://github.com/seungwoo505"><img src="https://avatars.githubusercontent.com/u/51819005?v=4" width="140px" /><br/>🐰 이승우(FrontEnd)</a></td>
         <td height="140px" align="center"> <a href="https://github.com/mike7643"><img src="https://avatars.githubusercontent.com/u/121170730?v=4" width="140px" /><br/>📈 정유민(BackEnd)</a></td>
     </tr>
     <tr>
       <td align="center"><a href="https://solved.ac/mo9mo9"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=mo9mo9" /></a></td>
-      <td align="center"><a href="https://solved.ac/{id}"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=rjsxor7584" /></a></td>
-      <td align="center"><a href="https://solved.ac/{id}"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=siheon0411" /></a></td>
-      <td align="center"><a href="https://solved.ac/{id}"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=zoozoo1302" /></a></td>
-      <td align="center"><a href="https://solved.ac/{id}"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=mike7643" /></a></td>
+      <td align="center"><a href="https://solved.ac/rjsxor7584"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=rjsxor7584" /></a></td>
+      <td align="center"><a href="https://solved.ac/siheon0411"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=siheon0411" /></a></td>
+      <td align="center"><a href="https://solved.ac/zoozoo1302"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=zoozoo1302" /></a></td>
+      <td align="center"><a href="https://solved.ac/mike7643"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=mike7643" /></a></td>
   </tr>
   
 </table>
