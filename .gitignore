@@ -2,4 +2,8 @@
 .DS_Store
 *.db
 
+
 *.iml
+.vscode/*
+src
+bin
