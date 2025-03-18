@@ -29,12 +29,12 @@ public class 트리 {
         queue.offer(Integer.parseInt(br.readLine()));
         remove[queue.peek()] = true;
         while (!queue.isEmpty()) {
-            int removeNode = queue.poll();
+            int removeNode = queue.poll(); //삭제된 노드
 
-            for(int i : list[removeNode]){
-                if(!remove[i]){
-                    remove[i] = true;
-                    queue.offer(i);
+            for(int i : list[removeNode]){ // 삭제된 노드의 하위 노드가 있는지 확인
+                if(!remove[i]){ // 살아있는지 확인
+                    remove[i] = true; // 삭제 처리
+                    queue.offer(i); // 삭제된 노드에 넣기
                 }
             }
         }
@@ -44,9 +44,9 @@ public class 트리 {
         for(int i = 0; i < N; i++){
             int c = 0;
             for(int j : list[i]){
-                if(!remove[j]) c++;
+                if(!remove[j]) c++; //살아있는 자식 노드 체크
             }
-            if(!remove[i] && c == 0){
+            if(!remove[i] && c == 0){ // 현 노드가 살아있고 자식 노드가 0개면 리프 노드이므로 카운트
                 count++;
             }
         }
