@@ -55,7 +55,6 @@ public class 이승우{
                         }
                     }
                 }
-
                 dim = Math.max(dim, newDim); // 과거 그림의 넓이와 현 그림의 넓이 중 누가 더 큰지 확인
             }
         }
