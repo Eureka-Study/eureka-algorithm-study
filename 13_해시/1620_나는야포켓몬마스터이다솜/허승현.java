@@ -17,6 +17,7 @@ import java.util.*;
 // map.put(number, name);
 
 // 언어 : JAVA , (성공/실패) : 1/1 , 메모리 : 50264 KB , 시간 : 456 ms
+
 // 실패 이유: 출력 수를 M으로 안하고 테스트케이스 5를 넣어버림
 public class Main {
 	
