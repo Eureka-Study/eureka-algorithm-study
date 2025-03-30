@@ -68,7 +68,7 @@
       <td align="center"><a href="https://solved.ac/siheon0411"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=siheon0411" /></a></td>
       <td align="center"><a href="https://solved.ac/zoozoo1302"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=zoozoo1302" /></a></td>
       <td align="center"><a href="https://solved.ac/mike7643"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=mike7643" /></a></td>
-      <td align="center"><a href="https://solved.ac/mo9mo9"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=hsh11" /></a></td>
+      <td align="center"><a href="https://solved.ac/hsh11"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=hsh11" /></a></td>
   </tr>
   
 </table>
