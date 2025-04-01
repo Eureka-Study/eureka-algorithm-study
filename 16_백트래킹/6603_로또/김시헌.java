@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Silver_6603 {  // 로또
+public class Main {  // 로또
     static int[] src, tgt;
     static StringBuilder sb;
 
