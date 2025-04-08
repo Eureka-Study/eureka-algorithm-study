@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-// 언어 : JAVA , (성공/실패) : 1/3 , 메모리 : 14108 KB , 시간 : 100ms
+// 언어 : JAVA , (성공/실패) : 1/0, 메모리 : 36704 KB , 시간 : 260ms
 
 public class Main {
 
