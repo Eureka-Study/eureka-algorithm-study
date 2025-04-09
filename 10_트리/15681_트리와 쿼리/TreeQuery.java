@@ -45,7 +45,7 @@ public class 정유민 {
 
     private static void subtreeSize(int root) {
         Deque<Integer> queue = new ArrayDeque<>();
-        Stack<Integer> stack = new Stack<>();
+        Deque<Integer> stack = new ArrayDeque<>();
         queue.offer(root);
         visited[root] = true;
 
