@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Gold_1744 {    // 수 묶기
+public class Main {    // 수 묶기
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
