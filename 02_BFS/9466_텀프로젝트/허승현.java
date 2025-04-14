@@ -75,4 +75,4 @@ public class Main {
             if (!inCycle[student]) notInTeam++;
         }
     }
-}
+ }
