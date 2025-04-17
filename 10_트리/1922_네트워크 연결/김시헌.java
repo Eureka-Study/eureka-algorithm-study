@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Gold_1922 {    // 네트워크 연결
+public class Main {    // 네트워크 연결
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
