@@ -1,3 +1,5 @@
+
+//언어 : JAVA , (성공/실패) : 1/1 , 메모리 : 276180 KB , 시간 : 1132 ms
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,7 +16,7 @@ public class 이분그래프 {
         int T = Integer.parseInt(br.readLine());
         StringBuilder sb = new StringBuilder();
 
-        for (int t = 1; t <= T; t++) {
+        for (int t = 1; t <= T; t++) { // 테스트 케이스
             StringTokenizer st = new StringTokenizer(br.readLine());
 
             int V = Integer.parseInt(st.nextToken()), E = Integer.parseInt(st.nextToken());
@@ -30,6 +32,7 @@ public class 이분그래프 {
 
                 int u = Integer.parseInt(st.nextToken()), v = Integer.parseInt(st.nextToken());
 
+                // 순서 없는 그래프이므로 양쪽 진입 가능
                 list[u].add(v);
                 list[v].add(u);
             }
@@ -38,18 +41,19 @@ public class 이분그래프 {
             boolean isBipartite = true;
 
             for (int i = 1; i <= V; i++) {
-                if (colors[i] == 0) {
+                if (colors[i] == 0) { // 아직 확인을 안했는지 확인을
                     Deque<Integer> queue = new ArrayDeque<>();
                     queue.add(i);
                     colors[i] = 1;
 
                     while (!queue.isEmpty()) {
                         int curr = queue.poll();
-                        for (int next : list[curr]) {
-                            if (colors[next] == 0) {
-                                colors[next] = 3 - colors[curr];
+                        for (int next : list[curr]) { // 현 위치에서 다음 위치 확인
+                            if (colors[next] == 0) { // 다음 경로가 아직 확인을 안했는지 확인을
+                                colors[next] = 3 - colors[curr]; // 다음 경로는 다른 색으로 칠하기
                                 queue.add(next);
-                            } else if (colors[next] == colors[curr]) {
+                            } else if (colors[next] == colors[curr]) { // 이미 색이 칠해져있는데 같은 색일 경우 불가능한 경우임(이분 그래프가 아니라는
+                                                                       // 의미)
                                 isBipartite = false;
                                 break;
                             }
