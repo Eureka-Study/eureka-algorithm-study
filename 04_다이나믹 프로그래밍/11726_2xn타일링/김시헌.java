@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Silver_11726 {     // 2xn 타일링
+public class Main {     // 2xn 타일링
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
